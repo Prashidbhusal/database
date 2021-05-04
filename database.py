@@ -2,7 +2,7 @@ from tkinter import *
 import sqlite3
 
 root = Tk()
-root.title('Database Address Book')
+root.title('Database Address book')
 #database
 #creating a database or connection one
 conn = sqlite3.connect('address_book.db')
